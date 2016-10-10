@@ -1,32 +1,19 @@
 {
-  "name": "dad-jokes",
+  "name": "skill-sample-nodejs-fact",
   "version": "1.0.0",
-  "description": "Dad Jokes Alexa Skill",
+  "description": "A simple fact skill.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/darrenlucas8678/alexa-dad-jokes.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "dad-jokes",
-    "alexa-skill"
+    "alexa",
+    "skill",
+    "fact"
   ],
-  "author": "Darren Lucas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/darrenlucas8678/alexa-dad-jokes/issues"
-  },
-  "homepage": "https://github.com/darrenlucas8678/alexa-dad-jokes#readme",
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
   "dependencies": {
-    "alexa-app": "^2.3.4",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
-    "lodash": "^4.16.2",
-    "mocha": "^3.1.0",
-    "request": "^2.75.0",
-    "request-promise": "^4.1.1"
+    "alexa-sdk": "^1.0.0"
   }
 }
